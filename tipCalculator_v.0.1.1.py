@@ -12,4 +12,6 @@ if y[-1] == '%':
     y = "." + y #how we add the decimal point to the front of our interger string
     print(y) #shows you how y looks after with the decimal in front 
     print("{:0.2f}".format(x*float(y))) # your tip calculated based on the bill and tip percentage
-
+elif y:
+    y = "." + y
+    print("{:0.2f}".format(x*float(y)))
